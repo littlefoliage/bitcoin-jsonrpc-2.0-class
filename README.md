@@ -1,6 +1,9 @@
 # bitcoin-jsonrpc-2.0-class
 A python wrapper class to call Bitcoin RPC server supporting batch requests
 
+Forked from https://kryptomusing.wordpress.com/2017/06/12/bitcoin-rpc-via-python/
+
+
 sample code:
 
 serverURL='http://usr:pw@host:port'
