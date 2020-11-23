@@ -5,6 +5,10 @@ Forked from https://kryptomusing.wordpress.com/2017/06/12/bitcoin-rpc-via-python
 
 Original class RPCHost is preserved.
 New class RPCHost_batch is created for batch requests.
+11/23 new batch limit of 3000 is set as bitcoin client sometimes won't be able to handle huge batch of request.
+    try logic is removed from batch call
+    length of tag and parameters are mandatory
+
 sample code:
 
 
